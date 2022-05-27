@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: url();
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+nav ul {
+    text-align: right;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    font-family: 'Shadows Into Light',
+        cursive;
+    z-index: 100;
+}
+
+.nav1 {
+    width: 100%;
+    align-items: center;
+}
+
+.nav1 li {
+    list-style: none;
+    padding: 9px 20px;
+    font-size: 20px;
+    font-style: inherit;
+}
+
+.nav1 li a {
+    margin: 15px;
+    text-decoration: none;
+    color: red;
+}
+
+.nav1 li a:hover {
+    text-decoration: overline;
+    color: black;
+}
+
+.logo1 {
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    color: red;
+    font-family: 'Shadows Into Light',
+        cursive;
+}
+
+.newmenu {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+
+.menu {
+    width: 33px;
+    background-color: red;
+    height: 4px;
+    margin: 3px 3px;
+}
