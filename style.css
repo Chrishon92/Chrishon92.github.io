@@ -70,3 +70,59 @@ nav ul {
     height: 4px;
     margin: 3px 3px;
 }
+
+/* Hompage */
+
+.firstcontainer {
+    height: 100vh;
+}
+
+.container1 {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    max-width: 50%;
+    margin: auto;
+}
+
+.con1 {
+    top: 50%;
+    position: absolute;
+    width: 75%;
+    justify-content: center;
+
+}
+
+.imageclass {
+    width: 30%;
+    display: none;
+    border: 6px solid;
+    border-radius: 150px;
+    margin: auto;
+}
+
+.name {
+    font-family: 'Shadows Into Light',
+        cursive;
+        font-size: x-large;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin: 9px 5px;
+    border: 9px solid black;
+    border-radius: 5px;
+    background: none;
+    color: red;
+    cursor: pointer;
+}
+
+.shortinfo {
+    font-size: larger;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 5s;
+}
